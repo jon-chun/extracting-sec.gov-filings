@@ -20,7 +20,7 @@ filing_types = ['10-k']
 #The database will be automatically created if it does not exist.
 db_name = 'edgar.db'
 # Specify the folder path for DB file. For example "C:\sqlite\db"
-folder_path = r"C:\sqlite\db"
+folder_path = r"C:\sqlite\extracting-sec-gov-filings\db"
 db_path = f"{folder_path}\{db_name}"
 # Enter the date range for the filings in the 'YYYY-MM-DD' format
 start_date = '2020-01-01'
