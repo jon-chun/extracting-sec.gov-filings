@@ -1,5 +1,9 @@
 ## Extract tables from SEC.gov filings
 
+* By KirillTsarapkin https://github.com/KirillTsarapkin/extracting-sec.gov-filings 04 Apr 2022
+* Tested: Jon Chun 12 Oct 2022
+
+
 sec_scraper.py allows the user to extract tables in bulk from SEC.gov filings and store the extracted tables in a SQLite database for quick and easy access, furthermore it creates a separate SQL normalized database which can be used to create time-series graphs and allows for further processing in SQL. 
 
 Before running sec_scraper.py,  modify the list parameters. You can extract multiple filing types for multiple companies at the same time. 
