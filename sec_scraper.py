@@ -1,3 +1,9 @@
+# https://github.com/KirillTsarapkin/extracting-sec.gov-filings
+# 04 Apr 2022
+
+# Transcribed/Tested:
+# 12 Oct 2022 by Jon Chun
+
 import requests
 import requests_random_user_agent # pip install requests-random-user-agent
 import pandas as pd
